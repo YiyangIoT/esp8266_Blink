@@ -1,9 +1,10 @@
 
+#define LED_BUILTIN 2
 
 void setup() {
   // initialize digital pin LED_BUILTIN as an output.
   pinMode(LED_BUILTIN, OUTPUT);
-  
+
   Serial.begin(115200);
 }
 
